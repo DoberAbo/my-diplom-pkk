@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оптимальные компьютеры</title>
+    <link rel="stylesheet" href="../css/komp_1.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Shippori+Antique+B1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dosis:wght@200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Shippori+Antique+B1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script defer src="//lk.easynetshop.ru/frontend/v5/test.js"></script>
+<link href="//lk.easynetshop.ru/frontend/v5/test.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <style>
+        .container {
+            max-width: 1410px;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .footer-col .social-links a {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            color: #ffffff;
+            transition: all 0.5s ease;
+        }
+
+        .footer-col .social-links a:hover {
+            color: #24262b;
+            background-color: #ffffff;
+        }
+
+        .footer {
+            background-color: #24262b;
+            padding: 70px 0;
+        }
+
+        .footer-col {
+            width: 300px;
+            padding: 0 15px;
+        }
+
+        .h4_footer {
+            font-size: 18px;
+            color: #ffffff;
+            text-transform: capitalize;
+            margin-bottom: 25px;
+            font-weight: 500;
+            margin-left: 40px;
+            position: relative;
+        }
+
+        .h4_footer_1 {
+            font-size: 18px;
+            color: #ffffff;
+            text-transform: capitalize;
+            margin-bottom: 35px;
+            font-weight: 500;
+            margin-left: 2px;
+            position: relative;
+        }
+
+        .footer-col h4::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color: #00f6ff;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+        }
+
+        .footer-col ul li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        .footer-col ul li a {
+            font-size: 16px;
+            text-transform: capitalize;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .footer-col ul li a:hover {
+            color: #ffffff;
+            padding-left: 8px;
+        }
+
+        .buton_p {
+            border: #d43c38;
+            background-color: #d43c38;
+            padding: 10px 54px;
+        }
+
+        .buton_p:hover {
+            background-color: #810a0a;
+            transition: 1s;
+        }
+    </style>
+    <header>
+        <div style="position: absolute;" class="header_main">
+            <a href="../inddex/glavnoe.html"> <img src="../img/arlan-removebg-preview.png" alt=""></a>
+        </div>
+    </header>
+    <div id="overlay" class="overlay hidden"></div>
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Введите данные для покупки</h2>
+            <input type="text" id="firstNameInput" class="input-field" placeholder="Имя">
+            <input type="text" id="phoneInput" class="input-field" placeholder="Номер телефона">
+            <input type="text" id="addressInput" class="input-field" placeholder="Адрес">
+            <select style="    width: 473px;
+            margin-left: 1px;" id="citySelect" class="input-field">
+                <option value="Moscow">Актау</option>
+                <option value="Saint Petersburg">Алматы</option>
+                <option value="Novosibirsk">Астана</option>
+                <option value="Yekaterinburg">Актобе</option>
+                <option value="Kazan">Атрау</option>
+                <option value="Chelyabinsk">Жанаозен</option>
+                <option value="Omsk">Кызылорда</option>
+                <option value="Samara">Шымкент</option>
+                <option value="Rostov-on-Don">Павлодар</option>
+                <option value="Ufa">Караганда</option>
+            </select>
+            <h3>Банковская карта</h3>
+            <input type="text" id="cardInput" class="input-field" placeholder="Номер карты">
+            <h3>Трехзначный код</h3>
+            <input type="text" id="codeInput" class="input-field" placeholder="CVV">
+
+            <button id="confirmButton">Подтвердить</button>
+        </div>
+    </div>
+    
+
+    <div id="notification" class="notification hidden">
+        <div class="notification-content">
+            Успешная покупка! Заказ будет доставлен в течение 7-10 дней.
+        </div>
+    </div>
+    <div class="text_maiin">
+        <h1>ОПТИМАЛЬНЫЕ
+            ИГРОВЫЕ КОМПЬЮТЕРЫ</h1>
+        <h4>Современные игровые компьютеры с процессорами Intel Core и видеокартами NVIDIA GeForce RTX предлагают
+            идеальное сочетание производительности и стоимости. Максимум эффективности без лишнего.</h4>
+      
+    </div>
+    <div class="maiin">
+        <div class="maiin_img"><img style="    width: 962px;
+            margin-left: 810px;
+            margin-top: 205px;
+        ;" src="../img/komp_1.webp" alt=""></div>
+    </div>
+
+
+
+    <h1 class="button" style="    position: absolute;
+    font-size: 35px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500; margin-left: 692px; margin-top: 100px;">ИГРОВЫЕ КОМПЬЮТЕРЫ </h1>
+    <div class="komp">
+        <div class="komp_block_1">
+            <div class="img_div">
+                <img src="../img/f_1.jpg" alt="">
+            </div>
+
+            <div class="bay_duv">
+                <div class="bay_div_1">
+                    <h1 class="lko">CiberF</h1>
+                    <div class="bay_div_text">
+                        <div class="rating">
+                            <input value="5" name="rating" id="star5" type="radio">
+                            <label for="star5"></label>
+                            <input value="4" name="rating" id="star4" type="radio">
+                            <label for="star4"></label>
+                            <input value="3" name="rating" id="star3" type="radio">
+                            <label for="star3"></label>
+                            <input value="2" name="rating" id="star2" type="radio">
+                            <label for="star2"></label>
+                            <input value="1" name="rating" id="star1" type="radio">
+                            <label for="star1"></label>
+                        </div>
+                        <p>( 1 отзыв )</p>
+                    </div>
+                </div>
+                <div class="bay_div_2">
+                    <p  class="p_style_1">500 000 ₸ </p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="text_hr">
+                <p>Игровая платформа, построенная на базе процессора Intel® Core™ i5-12400(F) [до 4.4GHz, 6 ядер] и
+                    видеокарты Palit GeForce RTX 4060 Dual</p>
+            </div>
+            <div style="text-align: -webkit-center;  margin-left: px;" class="div_nvi">
+                <div class="pona">
+                    <img class="img_c" src="../img/c_2.png" alt="">
+                    <p>
+                        Palit GeForce RTX 4060 Dual</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_1.png" alt="">
+                    <p>
+                        Intel® Core™ i5-12400(F)</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_4.png" alt="">
+                    <p>
+                        16GB Kingston FURY Beast RGB</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_3.png" alt="">
+                    <p>Воздушное охлаждение</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_5.png" alt="">
+                    <p>550W DeepCool PK550D [80+ Bronze] </p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/с_6.png" alt="">
+                    <p>Microsoft Windows 11 Pro </p>
+                </div>
+                <div id="buyButton" class="buutoon"><a  style="color: white;">Купить</a></div>
+            </div>
+        </div>
+        <div class="komp_block_1">
+            <div class="img_div">
+                <img src="../img/f_2.jpg" alt="">
+            </div>
+            <div class="bay_duv">
+                <div class="bay_div_1">
+                    <h1 class="lko">DeltaV</h1>
+                    <div class="bay_div_text">
+                        <div class="rating">
+                            <input value="5" name="rating" id="star5" type="radio">
+                            <label for="star5"></label>
+                            <input value="4" name="rating" id="star4" type="radio">
+                            <label for="star4"></label>
+                            <input value="3" name="rating" id="star3" type="radio">
+                            <label for="star3"></label>
+                            <input value="2" name="rating" id="star2" type="radio">
+                            <label for="star2"></label>
+                            <input value="1" name="rating" id="star1" type="radio">
+                            <label for="star1"></label>
+                        </div>
+                        <p>( 4 отзыв )</p>
+                    </div>
+                </div>
+                <div class="bay_div_2">
+                    <p class="p_style_1">750 000 ₸ </p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="text_hr">
+                <p>Мощная платформа для 2К-гейминга и работы на базе процессора Intel® Core™ i5-14500 [14 ядер] и
+                    видеокарты ZOTAC GAMING GeForce RTX 4070 Trinity </p>
+            </div>
+            <div style="text-align: -webkit-center;  margin-left: px;" class="div_nvi">
+                <div class="pona">
+                    <img class="img_c" src="../img/c_2.png" alt="">
+                    <p>
+                        GeForce RTX 4070 Trinity Black Edition</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_1.png" alt="">
+                    <p>
+                        Intel® Core™ i5-14500</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_4.png" alt="">
+                    <p>
+                        32GB TEAMGROUP T-Force Delta RGB Black</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_3.png" alt="">
+                    <p>Воздушное охлаждение</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_5.png" alt="">
+                    <p>650W DeepCool PN650M [80+ Gold]</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/с_6.png" alt="">
+                    <p>Microsoft Windows 11 Pro </p>
+                </div>
+                <div id="buyButton" class="buutoon"><a style="color: white;">Купить</a></div>
+            </div>
+        </div>
+        <div class="komp_block_1">
+            <div class="img_div">
+                <img src="../img/f_3.jpg" alt="">
+            </div>
+            <div class="bay_duv">
+                <div class="bay_div_1">
+                    <h1 class="lko">LiadeR</h1>
+                    <div class="bay_div_text">
+                        <div class="rating">
+                            <input value="5" name="rating" id="star5" type="radio">
+                            <label for="star5"></label>
+                            <input value="4" name="rating" id="star4" type="radio">
+                            <label for="star4"></label>
+                            <input value="3" name="rating" id="star3" type="radio">
+                            <label for="star3"></label>
+                            <input value="2" name="rating" id="star2" type="radio">
+                            <label for="star2"></label>
+                            <input value="1" name="rating" id="star1" type="radio">
+                            <label for="star1"></label>
+                        </div>
+                        <p>( 2 отзыв )</p>
+                    </div>
+                </div>
+                <div class="bay_div_2">
+                    <p class="p_style_1">600 000 ₸ </p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="text_hr">
+                <p>Производительный компьютер для игр и работы с процессором Intel® Core™ i5-14500 [до 5.0GHz, 14 ядер]
+                    и видеокартой Palit GeForce RTX 4060 Ti</p>
+            </div>
+            <div style="text-align: -webkit-center;  margin-left: px;" class="div_nvi">
+                <div class="pona">
+                    <img class="img_c" src="../img/c_2.png" alt="">
+                    <p>
+                        GeForce RTX 4060 Ti Dual
+                    </p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_1.png" alt="">
+                    <p>
+                        Intel® Core™ i5-14500</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_4.png" alt="">
+                    <p>
+                        32GB TEAMGROUP T-Force Delta RGB Black</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_3.png" alt="">
+                    <p>Воздушное охлаждение</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_5.png" alt="">
+                    <p>650W DeepCool PN650M [80+ Gold] </p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/с_6.png" alt="">
+                    <p>Microsoft Windows 11 Pro </p>
+                </div>
+                <div id="buyButton" class="buutoon"><a style="color: white;">Купить</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="komp_2">
+        <div class="komp_block_1_1">
+            <div class="img_div">
+                <img src="../img/f_4.jpg" alt="">
+            </div>
+
+            <div class="bay_duv">
+                <div class="bay_div_1">
+                    <h1 class="lko">CiberF</h1>
+                    <div class="bay_div_text">
+                        <div class="rating">
+                            <input value="5" name="rating" id="star5" type="radio">
+                            <label for="star5"></label>
+                            <input value="4" name="rating" id="star4" type="radio">
+                            <label for="star4"></label>
+                            <input value="3" name="rating" id="star3" type="radio">
+                            <label for="star3"></label>
+                            <input value="2" name="rating" id="star2" type="radio">
+                            <label for="star2"></label>
+                            <input value="1" name="rating" id="star1" type="radio">
+                            <label for="star1"></label>
+                        </div>
+                        <p>( 1 отзыв )</p>
+                    </div>
+                </div>
+                <div class="bay_div_2">
+                    <p class="p_style_1">750 000 ₸ </p>
+                </div>
+            </div>
+            <div class="text_hr">
+                <p>Мальенкий размер, большие возможности</p>
+            </div>
+            <div class="hr"></div>
+
+
+            <div style="text-align: -webkit-center;  margin-left: px;" class="div_nvi">
+                <div class="pona">
+                    <img class="img_c" src="../img/c_2.png" alt="">
+                    <p>
+                        Графическая карта GeForce RTX 4060 / 4060 Ti</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_1.png" alt="">
+                    <p>
+                        Intel Core i5 / i7</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_4.png" alt="">
+                    <p>
+                        16 до 96 GB DDR4/DDR5</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_3.png" alt="">
+                    <p>Воздушное охлаждение</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_5.png" alt="">
+                    <p>750W стандарта 80+ Gold </p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/с_6.png" alt="">
+                    <p>Microsoft Windows 11 Pro </p>
+                </div>
+                <div id="buyButton" class="buutoon_2"><a  class="btn-ens-action" data-rel="5bf9e2e8336408" style="color: white;">Купить</a></div>
+            </div>
+        </div>
+        <div class="komp_block_1_1">
+            <div class="img_div">
+                <img src="../img/f_5.jpg" alt="">
+            </div>
+            <div class="bay_duv">
+                <div class="bay_div_1">
+                    <h1 class="lko">DeltaV</h1>
+                    <div class="bay_div_text">
+                        <div class="rating">
+                            <input value="5" name="rating" id="star5" type="radio">
+                            <label for="star5"></label>
+                            <input value="4" name="rating" id="star4" type="radio">
+                            <label for="star4"></label>
+                            <input value="3" name="rating" id="star3" type="radio">
+                            <label for="star3"></label>
+                            <input value="2" name="rating" id="star2" type="radio">
+                            <label for="star2"></label>
+                            <input value="1" name="rating" id="star1" type="radio">
+                            <label for="star1"></label>
+                        </div>
+                        <p>( 4 отзыв )</p>
+                    </div>
+                </div>
+                <div class="bay_div_2">
+                    <p class="p_style_1">700 000 ₸ </p>
+                </div>
+            </div>
+            <div class="text_hr">
+                <p>Производительность, которая удивляет</p>
+            </div>
+            <div class="hr"></div>
+
+            <div style="text-align: -webkit-center;  margin-left: px;" class="div_nvi">
+                <div class="pona">
+                    <img class="img_c" src="../img/c_2.png" alt="">
+                    <p>
+                        GeForce RTX 4060 / 4060 Ti / 4070</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_1.png" alt="">
+                    <p>
+                        Intel Core i5 / i7</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_4.png" alt="">
+                    <p>
+                        16 до 96 GB DDR4/DDR5</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_3.png" alt="">
+                    <p>Воздушное охлаждение</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_5.png" alt="">
+                    <p>750W стандарта 80+ Gold</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/с_6.png" alt="">
+                    <p>Microsoft Windows 11 Pro </p>
+                </div>
+                <div id="buyButton2" class="buutoon_2"><a style="color: white;">Купить</a></div>
+            </div>
+        </div>
+        <div class="komp_block_1_1">
+            <div class="img_div">
+                <img src="../img/f_6.jpg" alt="">
+            </div>
+            <div class="bay_duv">
+                <div class="bay_div_1">
+                    <h1 class="lko">LiadeR</h1>
+                    <div class="bay_div_text">
+                        <div class="rating">
+                            <input value="5" name="rating" id="star5" type="radio">
+                            <label for="star5"></label>
+                            <input value="4" name="rating" id="star4" type="radio">
+                            <label for="star4"></label>
+                            <input value="3" name="rating" id="star3" type="radio">
+                            <label for="star3"></label>
+                            <input value="2" name="rating" id="star2" type="radio">
+                            <label for="star2"></label>
+                            <input value="1" name="rating" id="star1" type="radio">
+                            <label for="star1"></label>
+                        </div>
+                        <p>( 2 отзыв )</p>
+                    </div>
+                </div>
+                <div class="bay_div_2">
+                    <p class="p_style_1">600 000 ₸ </p>
+                </div>
+            </div>
+            <div class="text_hr">
+                <p>Компактность без компромиссов</p>
+            </div>
+            <div class="hr"></div>
+
+            <div style="text-align: -webkit-center;  margin-left: px;" class="div_nvi">
+                <div class="pona">
+                    <img class="img_c" src="../img/c_2.png" alt="">
+                    <p>
+                        GeForce RTX 4060 Ti / 4070 / 4070 Ti
+                    </p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_1.png" alt="">
+                    <p>
+                        Intel Core i5 / i7</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_4.png" alt="">
+                    <p>
+                        16 до 96 GB DDR4/DDR5</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_3.png" alt="">
+                    <p>Воздушное охлаждение</p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/c_5.png" alt="">
+                    <p>850W стандарта 80+ Gold </p>
+                </div>
+                <div class="pona">
+                    <img class="img_c" src="../img/с_6.png" alt="">
+                    <p>Microsoft Windows 11 Pro </p>
+                </div>
+                <div id="buyButton" class="buutoon_2"><a style="color: white;">Купить</a></div>
+            </div>
+        </div>
+    </div>
+    <div style="position: absolute;" id="Container">
+        <form class="form">
+            <input class="form-content" type="text" placeholder="Логин" />
+            <input class="form-content" type="password" placeholder="Пароль" />
+            <button>Войти</button>
+        </form>
+      
+        <div id="rays">
+            <svg fill="none" viewBox="0 0 299 152" height="9em" width="18em" xmlns="http://www.w3.org/2000/svg">
+                <path fill="url(#paint0_linear_8_3)"
+                    d="M149.5 152H133.42L9.53674e-07 4.70132e-06H149.5L299 4.70132e-06L165.58 152H149.5Z"></path>
+                <defs>
+                    <linearGradient gradientUnits="userSpaceOnUse" y2="12.1981" x2="150.12" y1="152" x1="149.5"
+                        id="paint0_linear_8_3">
+                        <stop stop-color="#00E0FF"></stop>
+                        <stop stop-opacity="0" stop-color="#65EDFF" offset="1"></stop>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+      
+        <div id="emiter">
+            <svg fill="none" viewBox="0 0 160 61" height="61" width="160" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_di_1_38)">
+                    <path fill="#2B2B2B"
+                        d="M80 27.9997C121.974 27.9997 156 22.4032 156 15.4996L156 40.4998C156 47.4034 121.974 52.9998 80 52.9998C38.0265 52.9998 4.00028 47.4034 4 40.4998V40.4998V15.51C4.0342 22.4089 38.0474 27.9997 80 27.9997Z"
+                        clip-rule="evenodd" fill-rule="evenodd"></path>
+                </g>
+                <ellipse fill="url(#paint0_radial_1_38)" ry="4.80773" rx="28.3956" cy="17.4236" cx="80"></ellipse>
+                <g filter="url(#filter1_i_1_38)">
+                    <path fill="#323232"
+                        d="M80 28.0002C121.974 28.0002 156 22.4037 156 15.5001C156 8.59648 121.974 3 80 3C38.0264 3 4 8.59648 4 15.5001C4 22.4037 38.0264 28.0002 80 28.0002ZM80.0001 20.308C96.1438 20.308 109.231 18.1555 109.231 15.5002C109.231 12.845 96.1438 10.6925 80.0001 10.6925C63.8564 10.6925 50.7693 12.845 50.7693 15.5002C50.7693 18.1555 63.8564 20.308 80.0001 20.308Z"
+                        clip-rule="evenodd" fill-rule="evenodd"></path>
+                </g>
+                <g filter="url(#filter2_di_1_38)">
+                    <path fill="#378BA6"
+                        d="M106.725 17.4505C108.336 16.8543 109.231 16.1943 109.231 15.4999C109.231 12.8446 96.1438 10.6921 80.0001 10.6921C63.8564 10.6921 50.7693 12.8446 50.7693 15.4999C50.7693 16.1943 51.6645 16.8543 53.2752 17.4504C53.275 17.4414 53.2748 17.4323 53.2748 17.4232C53.2748 14.768 65.2401 12.6155 80.0001 12.6155C94.7601 12.6155 106.725 14.768 106.725 17.4232C106.725 17.4323 106.725 17.4414 106.725 17.4505Z"
+                        clip-rule="evenodd" fill-rule="evenodd"></path>
+                </g>
+                <defs>
+                    <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="45.5002" width="160"
+                        y="15.4996" x="0" id="filter0_di_1_38">
+                        <feFlood result="BackgroundImageFix" flood-opacity="0"></feFlood>
+                        <feColorMatrix result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            type="matrix" in="SourceAlpha"></feColorMatrix>
+                        <feOffset dy="4"></feOffset>
+                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                        <feComposite operator="out" in2="hardAlpha"></feComposite>
+                        <feColorMatrix values="0 0 0 0 0.620833 0 0 0 0 0.620833 0 0 0 0 0.620833 0 0 0 0.25 0"
+                            type="matrix"></feColorMatrix>
+                        <feBlend result="effect1_dropShadow_1_38" in2="BackgroundImageFix" mode="normal"></feBlend>
+                        <feBlend result="shape" in2="effect1_dropShadow_1_38" in="SourceGraphic" mode="normal">
+                        </feBlend>
+                        <feColorMatrix result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            type="matrix" in="SourceAlpha"></feColorMatrix>
+                        <feOffset></feOffset>
+                        <feGaussianBlur stdDeviation="8"></feGaussianBlur>
+                        <feComposite k3="1" k2="-1" operator="arithmetic" in2="hardAlpha"></feComposite>
+                        <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" type="matrix"></feColorMatrix>
+                        <feBlend result="effect2_innerShadow_1_38" in2="shape" mode="normal"></feBlend>
+                    </filter>
+                    <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="25.0002" width="152"
+                        y="3" x="4" id="filter1_i_1_38">
+                        <feFlood result="BackgroundImageFix" flood-opacity="0"></feFlood>
+                        <feBlend result="shape" in2="BackgroundImageFix" in="SourceGraphic" mode="normal"></feBlend>
+                        <feColorMatrix result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            type="matrix" in="SourceAlpha"></feColorMatrix>
+                        <feMorphology result="effect1_innerShadow_1_38" in="SourceAlpha" operator="erode" radius="3">
+                        </feMorphology>
+                        <feOffset></feOffset>
+                        <feGaussianBlur stdDeviation="6.5"></feGaussianBlur>
+                        <feComposite k3="1" k2="-1" operator="arithmetic" in2="hardAlpha"></feComposite>
+                        <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" type="matrix"></feColorMatrix>
+                        <feBlend result="effect1_innerShadow_1_38" in2="shape" mode="normal"></feBlend>
+                    </filter>
+                    <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="26.7583"
+                        width="78.4615" y="0.692139" x="40.7693" id="filter2_di_1_38">
+                        <feFlood result="BackgroundImageFix" flood-opacity="0"></feFlood>
+                        <feColorMatrix result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            type="matrix" in="SourceAlpha"></feColorMatrix>
+                        <feMorphology result="effect1_dropShadow_1_38" in="SourceAlpha" operator="dilate" radius="2">
+                        </feMorphology>
+                        <feOffset></feOffset>
+                        <feGaussianBlur stdDeviation="4"></feGaussianBlur>
+                        <feComposite operator="out" in2="hardAlpha"></feComposite>
+                        <feColorMatrix values="0 0 0 0 0 0 0 0 0 0.941176 0 0 0 0 1 0 0 0 1 0" type="matrix">
+                        </feColorMatrix>
+                        <feBlend result="effect1_dropShadow_1_38" in2="BackgroundImageFix" mode="color-dodge"></feBlend>
+                        <feBlend result="shape" in2="effect1_dropShadow_1_38" in="SourceGraphic" mode="normal">
+                        </feBlend>
+                        <feColorMatrix result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            type="matrix" in="SourceAlpha"></feColorMatrix>
+                        <feMorphology result="effect2_innerShadow_1_38" in="SourceAlpha" operator="erode" radius="1">
+                        </feMorphology>
+                        <feOffset></feOffset>
+                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                        <feComposite k3="1" k2="-1" operator="arithmetic" in2="hardAlpha"></feComposite>
+                        <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.52 0" type="matrix">
+                        </feColorMatrix>
+                        <feBlend result="effect2_innerShadow_1_38" in2="shape" mode="normal"></feBlend>
+                    </filter>
+                    <radialGradient gradientTransform="translate(80 17.4236) rotate(90) scale(6.25004 36.9143)"
+                        gradientUnits="userSpaceOnUse" r="1" cy="0" cx="0" id="paint0_radial_1_38">
+                        <stop stop-color="#00FFF0"></stop>
+                        <stop stop-color="#001AFF" offset="0.901042"></stop>
+                    </radialGradient>
+                </defs>
+            </svg>
+        </div>
+      </div>
+      <style>
+        #Container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            margin-left: 1600px;
+            margin-top: -30px;
+        }
+      
+        #rays {
+            z-index: 2;
+            position: relative;
+            bottom: -1.5em;
+            animation: rays 2s ease-in-out infinite;
+        }
+      
+        .form {
+            position: relative;
+            top: 5em;
+            padding: 4%;
+            z-index: 3;
+            display: flex;
+            flex-direction: column;
+            border-radius: 0.5rem;
+            border: 4px solid #fff;
+            background: rgba(0, 255, 240, 0.52);
+            box-shadow: 0px 0px 64px 0px #82e1ff inset, 0px 0px 16px #a8fffaa6;
+            backdrop-filter: blur(3.5px);
+            gap: 1em;
+            animation: float 2s ease-in-out infinite;
+        }
+      
+        #login-lable {
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: 8px;
+            text-shadow: 0px 0px 16px rgb(243, 243, 243);
+        }
+      
+        .form-content {
+            height: 35px;
+            padding: 1px 8px;
+            color: white;
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-weight: bold;
+            border-radius: 6px;
+            border: 2px solid #fff;
+            background: rgba(139, 255, 247, 0.486);
+            box-shadow: 0px 0px 1px 3px #9ee5e3 inset, 0px 4px 4px 0px #181a6040;
+            text-shadow: 0px 1px 4px rgb(243, 243, 243);
+        }
+      
+        .form-content:focus-visible {
+            outline: none;
+            text-decoration: none;
+            background: rgba(139, 189, 255, 0.59);
+            box-shadow: 0px 0px 1px 4px #9ee5e3;
+        }
+      
+        .form-content:hover {
+            background: rgba(139, 189, 255, 0.59);
+        }
+      
+        ::placeholder {
+            font-weight: 300;
+            color: rgb(70, 70, 70);
+            letter-spacing: 0.1rem;
+            
+        }
+      
+        .form button {
+            cursor: pointer;
+            height: 35px;
+            padding: 0%;
+            color: white;
+            font-size: 1.5em;
+            letter-spacing: 0.3rem;
+            border: 2px solid white;
+            background: linear-gradient(144deg, #9500ffce, #2200ffb6 50%, #1525ffbb);
+        }
+      
+        .form button:hover {
+            background: linear-gradient(144deg, #00b7ffce, #00aeffb6 50%, #0e8bffbb);
+        }
+      
+      
+      
+        @keyframes float {
+            0% {
+                position: relative;
+            }
+      
+            50% {
+                top: 50px;
+            }
+      
+            100% {
+                position: relative;
+            }
+        }
+      
+        @keyframes rays {
+            0% {
+                opacity: 0.6;
+            }
+      
+            50% {
+                opacity: 1;
+            }
+      
+            100% {
+                opacity: 0.6;
+            }
+        }
+      </style>
+    <footer style="margin-top: -4px;" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4 class="h4_footer">Сборки</h4>
+                    <ul>
+                        <li><a href="../inddex/glavnoe.html">Главное меню</a></li>
+                        <li><a href="../inddex/komp_3.html">Кастомные</a></li>
+                        <li><a href="../inddex/komp_2.html">Мощные</a></li>
+                        <li><a href="../inddex/komp_1.html">Оптимальные</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="h4_footer">Комплектующие</h4>
+                    <ul>
+                        <li><a href="../inddex/videokarta.html">Видеокарта</a></li>
+                        <li><a href="../inddex/videokarta.html">Процессоры</a></li>
+                        <li><a href="../inddex/videokarta.html">Охлаждение</a></li>
+                        <li><a href="../inddex/oper.html">Вентиляторы</a></li>
+                        <li><a href="../inddex/oper.html">Оперативная память</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="h4_footer">Аксессуары</h4>
+                    <ul>
+                        <li><a href="../inddex/monitor.html">Монитор</a></li>
+                        <li><a href="../inddex/miw.html">Мышь</a></li>
+                        <li><a href="../inddex/klawa.html">Клавиатура</a></li>
+                        <li><a href="../inddex/klawa.html">Наушник</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="h4_footer_1">Подписатся</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const buyButton = document.getElementById("buyButton");
+   
+    const overlay = document.getElementById("overlay");
+    const modal = document.getElementById("modal");
+    const closeButton = document.querySelector(".close");
+    const confirmButton = document.getElementById("confirmButton");
+    const codeInput = document.getElementById("codeInput");
+    const notification = document.getElementById("notification");
+
+    buyButton.addEventListener("click", function() {
+        overlay.classList.remove("hidden");
+        modal.classList.remove("hidden");
+    });
+
+    closeButton.addEventListener("click", function() {
+        closeOverlay();
+    });
+
+    confirmButton.addEventListener("click", function() {
+        const code = codeInput.value.trim(); 
+        if (/^\d{3}$/.test(code)) { 
+            showNotification();
+        } else {
+            alert('Пожалуйста, введите трехзначный код.');
+        }
+    });
+
+    function closeOverlay() {
+        overlay.classList.add("hidden");
+        modal.classList.add("hidden");
+    }
+
+    function showNotification() {
+        notification.classList.remove("hidden");
+        setTimeout(function() {
+            notification.classList.add("hidden");
+        }, 5000); 
+    }
+});
+document.addEventListener("DOMContentLoaded", function() {
+
+    const buyButtons = document.querySelectorAll('[id^="buyButton"]');
+
+    const overlay = document.getElementById("overlay");
+    const modal = document.getElementById("modal");
+    const closeButton = document.querySelector(".close");
+
+   
+    buyButtons.forEach(function(buyButton) {
+        buyButton.addEventListener("click", function() {
+            overlay.classList.remove("hidden");
+            modal.classList.remove("hidden");
+        });
+    });
+
+    closeButton.addEventListener("click", function() {
+        closeOverlay();
+    });
+
+    function closeOverlay() {
+        overlay.classList.add("hidden");
+        modal.classList.add("hidden");
+    }
+});
+
+
+</script>
+</html>
